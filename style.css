@@ -1,0 +1,45 @@
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  background-color: rgb(102, 148, 42);
+  min-height: 10%;
+}
+body {
+  background-image: url("/images/forestPixabay.png");
+
+  background-size: cover;
+}
+.card {
+  background-color: transparent;
+}
+/* .card-Gamer {
+  max-height: 35vh;
+} */
+.avatar {
+  width: 20vh;
+}
+.gaming-img {
+  width: 10vh;
+  height: 10vh;
+}
+
+h5 {
+  color: white;
+  text-shadow: 0 0 0.2em black, 0 0 0.2em black;
+}
+
+@media screen and (max-width: 576px) {
+  .card-title {
+    transform: rotate(-90deg);
+    transform-origin: middle top 0;
+  }
+}
